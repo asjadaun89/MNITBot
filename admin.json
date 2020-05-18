@@ -1,0 +1,250 @@
+{"intents":
+    [
+
+        {
+            "tag": "director",
+            "patterns": ["give me the name of director of MNIT Jaipur","who is mnit director?","what is the name of director","what is the name of the director of mnit Jaipur","tell me who is the director","who is the director of the MNIT","who is the director of the college","tell me the name of director of MNIT.","who is the director of MNIT?", "who is the director of Malaviya National Institute of Technology", "who is the MNIT principal?","who is chairman of MNIT"],
+            "responses": ["Dr. Uday Kumar Yaragetti is the director of MNIT Jaipur","The director of MNIT Jaipur is Dr. Uday Kumar Yaragetti"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "building_work_committee",
+            "patterns": ["what is building and works committee ?","who are members of building and work committee","tell me about building and works committee"],
+            "responses": ["building and works commitee include director as chairman and Prof AK Vyas and registrar as its members"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "finance_committee",
+            "patterns": ["what is finance committee ?","who are members of mnit finance committee","mnit finance committee","tell me about finance committee MNIT"],
+            "responses": ["finance committee include director as its chairman and two Members appointed by BoG and registrar"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "senate",
+            "patterns": ["what is mnit senate?","who are members of mnit senate","who are mnit senate members","tell me about senate of MNIT","what are the names of members of MNIT senate","tell me the names of members of MNIT senate"],
+            "responses": ["Senate comprises of Director,Dean,Educationists Specialists ,Registrar and all the professors."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Board_of_Governors",
+            "patterns": ["what is MNIT board of governors ?","who are members of mnit board of governors","tell me about board of governors of MNIT","who are members of mnit  board of governors","tell me the names of memebers of mnit board of governors"],
+            "responses": ["Board of governors of MNIT include Porf. Uday Kumar Yaragetti as Chairperson and Prof. N. S. Vyas, Shri RamKumar Buthra, Dr. A B Gupta as its members"],
+            "context_set": ""
+        },
+
+        {   
+            "tag":"director_contact",
+            "patterns":["what is director's contact","what is director's phone number?","what is the phone number of director's office","what is the phone number of director of MNIT?","what are the contact details of director of mnit?","give me the contact details of mnit director","tell me the phone number of director of MNIT"],
+            "responses":["The phone number of director's office is +91 141 252908."],
+            "context_set":""
+        },
+
+        {   
+            "tag":"director_email",
+            "patterns":["what is director's e-mail?","what is the e-mail address of director's office","what is the e-mail address of director of MNIT?","give me the e-mail of mnit director","tell me about the e-mail of MNIT director","give me the e-mail address of director of MNIT"],
+            "responses":["The email address of director's office is director@mnit.ac.in"],
+            "context_set":""
+        },
+
+        {   
+            "tag":"director_fax",
+            "patterns":["director's fax number","what is director's fax number?","what is the fax number of director's office","what is the fax number of director of MNIT?","give me the fax number of mnit director","tell me the fax number of MNIT director"],
+            "responses":["The fax number of director's office is +91 141 2529029"],
+            "context_set":""
+        },
+
+        {
+            "tag": "dean_wel",
+            "patterns": ["who is the dean of student welfare and alumni affairs","what is the name of dean student welfare and alumni affairs","give me the name of dean student welfare","tell me the name of dean alumni affairs","who is the dean of the college","who is the dean","tell me the name of the dean","what is the name of the dean"],
+            "responses": ["Prof. Tarush Chandra is the dean Student welfare and alumni affairs.","Dean of Student welfare and alumni affairs is Dr. Tarush Chandra.","The name of dean, Student welfare and alumni affairs is Dr. Tarush Chandra"],
+            "context_set": ""
+        },
+
+        {   
+            "tag":"dean_wel_contact",
+            "patterns":["what is contact number of dean student welfare and alumni affairs","what is dean student welfare and alumni affairs phone number?","what is the phone number of dean student welfare and alumni affairs","what are the contact details of dean student welfare and alumni affairs?","give me the contact details of dean student welfare and alumni affairs","tell me the phone number of dean student welfare and alumni affairs"],
+            "responses":["The phone number of dean student welfare and alumni affairs is +91 141 2713364.","The contact number of dean student welfare and alumni affairs is +91 141 2713364"],
+            "context_set":""
+        },
+
+        {
+            "tag": "dean_acad",
+            "patterns": ["who is the dean of Academic affairs?","what is the name of dean academic affairs?","tell me the name of academic affairs dean","give me the name of dean academic affaris."],
+            "responses": ["Prof. K. R. Niazi is the dean of Academic affairs.","Dean of Academic affairs is Dr. K. R. Niazi","the name of dean of academic affairs is Dr. K. R. Niazi."],
+            "context_set": ""
+        },
+
+        {   
+            "tag":"dean_acad_contact",
+            "patterns":["what is contact number of dean pf academic affairs","what is dean academic affairs phone number?","what is the phone number of dean academic affairs","what are the contact details of dean academic affairs?","give me the contact details of dean academic affairs","tell me the phone number of dean academic affairs"],
+            "responses":["The phone number of dean academic affairs is +91 141 2713274.","The contact number of dean academic affairs is +91 141 2713274"],
+            "context_set":""
+        },
+
+        {
+            "tag": "dean_international",
+            "patterns": ["who is the dean of international affairs","what is the name of dean international affairs","give me the name of dean of international affairs","tell me the name of dean of international affairs"],
+            "responses": ["Prof. A. P. S. Rathore is the dean international affairs","Dean of international affairs is Dr. A. P. S. Rathore","The name of dean international affairs is Dr. A. P. S. Rathore"],
+            "context_set": ""
+        },
+
+        {   
+            "tag":"dean_inter_contact",
+            "patterns":["what is contact number of dean of international affairs","what is dean international affairs phone number?","what is the phone number of dean international affairs","what are the contact details of dean international affairs?","give me the contact details of dean international affairs","tell me the phone number of dean international affairs"],
+            "responses":["The phone number of dean international affairs is +91 141 2713280.","The contact number of dean international affairs is +91 141 2713280"],
+            "context_set":""
+        },
+
+        {
+            "tag": "dean_faculty",
+            "patterns": ["who is the dean of faculty welfare","what is the name of dean faculty welfare","tell me the name of dean of faculty welfare","give me the name of dean of faculty welfare"],
+            "responses": ["Prof. S. P. Chaurasia is the dean of faculty welfare","Dean of faculty welfare is Dr. S. P. Chaurasia","The name of dean of faculty welfare is Dr. S. P. Chaurasia"],
+            "context_set": ""
+        },
+
+        {   
+            "tag":"dean_faculty_contact",
+            "patterns":["what is contact number of dean of faculty welfare","what is dean faculty welfare phone number?","what is the phone number of dean faculty welfare","what are the contact details of dean faculty welfare?","give me the contact details of dean faculty welfare","tell me the phone number of dean faculty welfare"],
+            "responses":["The phone number of dean faculty welfare is +91 141 2713380.","The contact number of dean faculty welfare is +91 141 2713380"],
+            "context_set":""
+        },
+
+        {
+            "tag": "dean_rnd",
+            "patterns": ["who is the dean of research and consultancy","what is the name of dean research and consultancy","tell me the name of dean of research and consultancy","give me the name of dean of research and consultancy"],
+            "responses": ["Prof. G. S. Dangayach is the dean of research and consultancy","dean of research and consultancy is Dr. G. S. Dangayach","The name of dean of research and consultancy is Prof. G. S. Dangayach"],
+            "context_set": ""
+        },
+
+        {   
+            "tag":"dean_rnd_contact",
+            "patterns":["what is contact number of dean of research and consultancy","what is dean research and consultancy phone number?","what is the phone number of dean research and consultancy","what are the contact details of dean research and consultancy?","give me the contact details of dean research and consultancy","tell me the phone number of dean research and consultancy"],
+            "responses":["The phone number of dean research and consultancy is +91 141 2713263.","The contact number of dean research and consultancy is +91 141 2713263"],
+            "context_set":""
+        },
+
+        {
+            "tag": "dean_pnd",
+            "patterns": ["who is the dean of planning and development","what is the name of dean planning and development","tell me the name of dean of planning and development","give me the name of dean planning and development"],
+            "responses": ["Prof. A. K. Vyas is the dean of planning and development","dean of planning and development is Dr. A. K. Vyas","The name of dean  planning and development is Prof. A. K. Vyas"],
+            "context_set": ""
+        },
+
+        {   
+            "tag":"dean_pnd_contact",
+            "patterns":["what is contact number of dean of planning and development","what is dean planning and development phone number?","what is the phone number of dean planning and development","what are the contact details of dean planning and development?","give me the contact details of dean planning and development","tell me the phone number of dean planning and development"],
+            "responses":["The phone number of dean planning and development is +91 141 2713280.","The contact number of dean planning and development is +91 141 2713280"],
+            "context_set":""
+        },
+
+        {
+            "tag": "dean_sports",
+            "patterns": ["who is the dean of sports","what is the name of dean sports and games","tell me the name of dean of games","who is associate dean of sports","give me the name of associate dean sports"],
+            "responses": ["Dr. Rajiv Kumar Dohare is Associate dean Sports.","The name of Associate dean sports is Dr. R. K. Dohare","Associate dean sports is Dr. R. K. Dohare."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "registrar",
+            "patterns": ["who is the registrar of MNIT","what is the name of MNIT registrar","tell me the name of registrar MNIT","give me the name of registrar of MNIT"],
+            "responses": ["Prof. K. R. Niazi is the registrar of MNIT","The name of Registrar MNIT Jaipur is Dr. K. R. Niazi","Registrar MNIT Jaipur is Dr. K. R. Niazi."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "reg_contact",
+            "patterns": ["give me the registrar contact details","what is the registrar phone number","what is the phone number of registra of mnit","tell me the  phone number of registrar","give me contact details of registrar of MNIT","tell me contact details of registrar"],
+            "responses": ["The phone number of registrar's office is +91 141 2529078","The contact number of registrar's office is 0 141 2529078"],
+            "context_set": ""
+        },
+
+
+        {   
+            "tag":"registrar_email",
+            "patterns":["what is registrar's e-mail?","what is the e-mail address of registrar's office","what is the e-mail address of registrar of MNIT?","give me the e-mail of mnit registrar","tell me about the e-mail of MNIT registrar","give me the e-mail address of registrar of MNIT"],
+            "responses":["The email address of registrar's office is registrar@mnit.ac.in"],
+            "context_set":""
+        },
+
+        {
+            "tag": "assc_dean_acad_UG",
+            "patterns": ["who is the associate dean academics under graduate of MNIT","what is the name of associate dean academics under graduate","tell me the name of associate dean academics under graduate","give me the name of associate dean academics under graduate"],
+            "responses": ["Dr. Anil Swarnkar is associate dean academics under graduate of MNIT","The name of associate dean academics under graduate is Dr. Anil Swarnkar","associate dean academics under graduate is Dr. Anil Swarnkar"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "assc_dean_acad_PG",
+            "patterns": ["who is the associate dean academics post graduate of MNIT","what is the name of associate dean academics post graduate","tell me the name of associate dean academics post graduate","give me the name of associate dean academics post graduate"],
+            "responses": ["Dr. Anil Swarnkar is associate dean academics under graduate of MNIT","The name of associate dean academics post graduate is Dr. M. L. Mittal","associate dean academics post graduate is Dr. M. L. Mittal"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "deputy_registrar_acad",
+            "patterns": ["who is the deputy registrar academics of MNIT","what is the name of deputy registrar academics","tell me the name of deputy registrar academics","give me the name of deputy registrar academics"],
+            "responses": ["Dr. Reetu Singh is the deputy registrar academics","The name of deputy registrar academics is Dr. Reetu Singh","deputy registrar academics is Dr. Reetu Singh"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "deputy_reg_acad_contact",
+            "patterns": ["give me the deputy registrar academics contact details","what is the deputy registrar academics phone number","what is the phone number of deputy registrar academics of mnit","tell me the  phone number of deputy registrar academics","give me contact details of deputy registrar academics","tell me contact details of deputy registrar academics"],
+            "responses": ["The phone number of deputy registrar academics is +91 141 2715032","The contact number of deputy registrar academics is +91 141 271 5032"],
+            "context_set": ""
+        },
+
+        {   
+            "tag":"deputy_registrar_acad_email",
+            "patterns":["what is deputy registrar academics e-mail?","what is the e-mail address of deputy registrar academics","what is the e-mail address of deputy registrar academics?","give me the e-mail address of deputy registrar academics","tell me about the e-mail address of deputy registrar academics","give me the e-mail address of deputy registrar academics"],
+            "responses":["The e-mail address of deputy registrar academics is dr.acad@mnit.ac.in","The e-mail address of deputy registrar academics' office is dr.acad@mnit.ac.in"],
+            "context_set":""
+        },
+
+        {
+            "tag": "CVO",
+            "patterns": ["who is the chief vigilance officer of MNIT","what is the name of chief vigilance officer mnit","tell me the name  of chief vigilance officer","give me the name of chief vigilance officer"],
+            "responses": ["Prof. R. P. Yadav is chief of vigilance officer of MNIT","The name of chief vigilance officer of MNIT is Dr. R. P. Yadav","Prof. R. P. Yadav is MNIT's chief vigilance officer."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "CVO_contact",
+            "patterns": ["give me the chief vigilance officer contact details","give me the chief vigilance officer's phone number","what is the phone number of chief vigilance officer","what is chief vigilance officer's phone number ","give me contact details of chief vigilance officer","tell me contact details of chief vigilance officer"],
+            "responses": ["The contact details of chief vigilance officer of MNIT is +91 141 2713375"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "ERP_query",
+            "patterns": ["who should i contact if i am having an ERP related query?","whom should i contact for ERP related queries","where should i go for ERP related queries","what to do for ERP related problems","who should i contact for ERP related problems","who should i contact for ERP related issues"],
+            "responses": ["For ERP related issues, you can send your issues at erp.acad@mnit.ac.in","The ERP related issues can be sent by students at erp.acad@mnit.ac.in"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "PHD_query",
+            "patterns": ["who should Ph.D. students contact for academic issue","who should Ph.D. contact for academic problems","who should i contact if i am having a Ph.D. related query?","whom should i contact for Ph.D. related queries","where should i go for Ph.D. related queries","what to do for Ph.D. related problems","who should i contact for Ph.D. related problems","who should i contact for Ph.D. related issues"],
+            "responses": ["For Ph.D. academics related issues, you can send your issues at phd.acad@mnit.ac.in","The Ph.D. related issues can be sent by students at phd.acad@mnit.ac.in"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "PG_query",
+            "patterns": ["who should P.G students contact for academic issue","who should post graduate students contact for academic issues ","who should Post graduate students contact for academic problems","who should i contact if i am having a post graduate related query?","whom should i contact for P.G. related queries","where should i go for Post graduate related queries","what to do for Post graduate. related  academic problems","who should i contact for P.G. related problems","who should i contact for Post graduate related issues"],
+            "responses": ["For post graduate academics related issues, you can send your issues at pg.acad@mnit.ac.in","The Post graduate academics related issues can be sent by students at pg.acad@mnit.ac.in"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "UG_query",
+            "patterns": ["who should U.G. students contact for academic issue","who should under graduate students contact for academic issues ","who should under graduate students contact for academic problems","who should i contact if i am having a under graduate related query?","whom should i contact for U.G. related queries","where should i go for under graduate related queries","what to do for under graduate. related  academic problems","who should i contact for U.G. related problems","who should i contact for under graduate related issues"],
+            "responses": ["For under graduate  academics related issues, you can send your issues at ugone.acad@mnit.ac.in and ugtwo@mnit.ac.in","The under graduate academics related issues (of Electrical, Electronics, Mechanical, and Metallurgy branch) can be sent by students at ugtwo.acad@mnit.ac.in while students of computer science, civil, Architecture branch can send their issues at ugone.acad@mnit.ac.in"],
+            "context_set": ""
+        }
+   ]
+}

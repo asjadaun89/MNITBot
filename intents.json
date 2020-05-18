@@ -1,0 +1,233 @@
+{"intents": [
+
+        {   "tag": "greeting",
+            "patterns": ["hello again","Hi","hi there","howdy","greetings" ,"How are you", "Is anyone there?", "Hello", "Good day","hey","hey there"],
+            "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "greeting2",
+            "patterns": ["nice to meet you","nice to see you","great to see you","glad to see you"],
+            "responses": ["always a pleasure to see you", "nice to meet you too", "Glad to see you too"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "greeting3",
+            "patterns": ["how are you","how's it going","how are you doing","what's up"],
+            "responses": ["I am doing good and hope you are doing fine.", "I am doing well and hope the same for you."],
+            "context_set": ""
+        },
+
+
+        
+        {
+            "tag": "goodbye",
+            "patterns": ["see you","tata", "See you later", "bye","Goodbye", "I am Leaving", "Have a Good day"],
+            "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "thank_you",
+            "patterns": ["thank you","hmm","okay","OK" ,"i am thanking you","thanks", "Nice","cool","that's cool","that is cool"],
+            "responses": ["i am happy to help you."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "morning",
+            "patterns": ["hello good morning","good morning","good morning to you","good morning there"],
+            "responses": ["good morning","good morning to you","have a nice morning","hi good morning"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "evening",
+            "patterns": ["hello good evening","good evening","good evening to you","good evening there"],
+            "responses": ["good evening","good evening to you","have a nice evening","hi good evening"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "who_are_you",
+            "patterns": ["Who are you","what are you","tell me about you","what is your name","tell me something about you"],
+            "responses": ["Hi! I am BroBot. Want to ask something about MNIT? I am here to help.","Hi! I am BroBot. I help you to know MNIT better. Want to ask something?" ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "what_u_can_do",
+            "patterns": ["what can you do","why are you here","how can you help me","what you do","what things can you do","what do you know"],
+            "responses": ["I can help you to know MNIT Better. Want to ask something?","Want to know about MNIT? I am here to help."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "how_am_I",
+            "patterns": ["how am i","what do you think of me","what do you think i am","who do you think i am"],
+            "responses": ["You are an adorable person","as far as i know you, you are a sweet person"],
+            "context_set": ""
+        },
+
+
+        {
+            "tag": "who_made_you",
+            "patterns": ["who made you","who created you","Who is your master","who is your boss","who prepared you","who is your creator","who is your developer","who developed you","who coded you"],
+            "responses": ["I am developed by a couple of Computer Science and Engineering students at MNIT","I am created by CS students of MNIT"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "can_you_sing",
+            "patterns": ["can you sing","sing a song for me","do you sing","are you a singer","do you know singing","do you know how to sing"],
+            "responses": ["I am having a sore throat today. I will sing tomorrow","I am taking some lessons. Daisy, Daisy. Give me your answer do. I am half crazy. All for the love of you"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "can_you_dance",
+            "patterns": ["can you dance","can you dance for me","do you dance","are you a dancer","do you know dancing","do you know how to dance"],
+            "responses": ["No I find it hard to move in time to the music.","I am very good at robotic dancing."],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "funny",
+            "patterns": ["you are so funny","haha","ha ha ha","hahaha","I am laughing"],
+            "responses": ["I am glad that you are happy"," Human emotions are difficult for me to understand. My botmaster will be pleased I made you laugh"],
+            "context_set": ""
+        },
+
+
+        {
+            "tag": "MNIT_location",
+            "patterns": ["where is MNIT Jaipur","where is MNIT","where is the college","what is address of MNIT","what is the address of the college","where is MNIT located","what is the location of MNIT jaipur","what is MNIT's location","where is MNIT situated in jaipur","in which locality MNIT located","where is MNIT located in jaipur"],
+            "responses": ["MNIT is located at Malaviya Nagar in Jaipur", "MNIT is situated in Malaviya Nagar Jaipur"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "MNIT",
+            "patterns": ["introduction of MNIT","tell me something about mnit","tell me about MNIT","what is MNIT?", "who is MNIT?", "what does MNIT stand for?","what is full form of MNIT?","when was MNIT founded?"],
+            "responses": ["Malaviya National Institute of Technology is an engineering college in Jaipur founded in 1963.", "MNIT stands for Malaviya National Institute of Technology."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "website",
+            "patterns": ["what is mnit website","website","mnit website","what is website of mnit jaipur","what is the site of mnit","mnit site","mnit web portal"],
+            "responses": ["mnit.ac.in"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "nit_status",
+            "patterns": ["when was mnit given a status of NIT","when was MNIT given a status of national institute of Technology","when did MNIT become a NIT","when did MNIT become national institute of Technology","when did MREC become MNIT","when was MREC changed to MNIT ","when was MREC converted to MNIT"],
+            "responses":["June 26, 2002"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "national_imp_status",
+            "patterns": ["when was mnit given a status of national importance","when was mnit given a status of institute of national importance","when did MNIT become an institute of national importance"],
+            "responses":["August 15, 2007"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "campus_size",
+            "patterns": ["how big is MNIT campus","mnit campus size","what is the mnit campus size","in how much area is MNIT spreaded","tell about size of mnit campus","size of campus of mnit","how much is the size of mnit campus","what is area of spread of mnit"],
+            "responses":["MNIT campus extends into an area of over 317 acres.","MNIT has a huge campus covering an area of around 317 acres"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "student_strength",
+            "patterns": ["what is the average number of students in MNIT","what is the average student strength of MNIT","how many student are there in MNIT","how many students study in MNIT"],
+            "responses": ["MNIT has around 8000 engineering students.", "MNIT has an average student strength of 8000"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "mnit_history",
+            "patterns": ["tell me something about mnit history","what is the history of MNIT","what is the history of MNIT","tell about history of MNIT"],
+            "responses":["The college was established in 1963 with the name as Malaviya Regional Engineering College, Jaipur.on June 26, 2002 the college has been given the status of National Institute of Technology and on 15 August 2007, Proclaimed Institute of National Importance"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "establishment",
+            "patterns": ["how old is MNIT","what is year of establishment of MNIT","what is year of foundation of MNIT","when was the college founded","in which year was the college founded in","tell me the year MNIT was established in","when was mnit started?","when was mnit founded?","when was mnit established?","when was college founded?","in which year was mnit founded?","in which year was mnit established?"],
+            "responses": ["MNIT was established in 1963 as Malaviya Regional Engineering College Jaipur"],
+            "context_set": ""
+        },
+
+        {   "tag": "vision",
+            "patterns": ["what is vision statement of  MNIT?", "tell me vision statement of MNIT","what is the goal of mnit?","tell me about vision statement of MNIT","tell me about vision of MNIT"],
+            "responses": ["To create a centre for imparting technical education of international standards and conduct research at the cutting edge of technology to meet the current and future challenges of technological development."],
+            "context_set": ""
+        },
+
+        {   "tag": "mission",
+            "patterns": ["what is mission statement of  MNIT?", "tell me about mission statement of MNIT","what is MNIT mission statement","tell me about MNIT mission statement"],
+            "responses": ["To create technical manpower for meeting the current and future demands of industry: To recognize education and research in close interaction with industry with emphasis on the development of leadership qualities in the young men and women entering the portals of the Institute with sensitivity to social development and eye for opportunities for growth in the international perspective."],
+            "context_set": ""
+        },
+
+        {   "tag": "quality_policy",
+            "patterns": ["what is quality policy of  MNIT?",  "tell me something about quality policy of MNIT","what is MNIT quality policy","tell me about quality policy of MNIT"],
+            "responses": ["MNIT shall strive to impart knowledge in such a manner as to achieve total satisfaction of students, parents, employers, and the society."],
+            "context_set": ""
+        },
+
+        {   "tag": "ins_motto",
+            "patterns": ["what is institute motto of  MNIT?","tell me the institute motto","Which Sanskrit versus is written in logo of Mnit","what is the slogan on MNIT logo","what is the institute slogan of the college","what is the tag line of MNIT","what is motto of the institute","what is the motto of  institute" , "tell me about institute motto of MNIT"],
+            "responses":["Yogah Karmasu Koshalam is the institute motto of MNIT","Yogah Karmasu Koshalam is the institute slogan of MNIT"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "old_name",
+            "patterns": ["what is the old name of mnit?","what is mnit's old name","tell me the old name of mnit","what was mnit formerly called as?","what was mnit earlier called as?","what was mnit earlier known as?","what was MNIT previously called as?","what was MNIT previously known as"],
+            "responses": ["The old name of MNIT is Malaviya Regional Engineering College","MNIT was previously called as Malaviya Regional Engineering college (MREC) jaipur"],
+            "context_set": ""
+        },
+
+        {   "tag": "campus",
+            "patterns": ["campus","mnit campus","tell me about mnit campus?", "how is the mnit capmpus?", "mnit capmpus?","how does mnit campus look like?"],
+            "responses": ["Extending into an area of over 317 acres of lush greenery, the campus of the Institute is imaginatively laid-out with a picturesque landscape. It presents a spectacle of harmony in modern architecture, and natural beauty which enthralls and inspires.The campus of the institute consisting of the institute buildings, halls   of residence and staff colony. It is a residential campus offering accomodation to   faculty, staff and students. The campus provides all essential amenities for community   living like staff clubs, hospital, bank, post office, community centre, school,   staff residences, gymnasium, playing fields, guest houses, 24 Hours internet connectivity, and canteen etc."],
+            "context_set": ""
+        },
+
+        {   "tag": "airport_distance",
+            "patterns": ["how far is mnit from jaipur airport","is there any airport near MNIT","how far is the jaipur airport form MNIT","how far from airport is MNIT located","how far is airport from mnit"],
+            "responses": ["MNIT is situated at a distance of around 6 km from Jaipur international airport"],
+            "context_set": ""
+        },
+
+        {   "tag": "infrastructure",
+            "patterns": ["infrastructure","infrastructure in mnit","infrastructure of mnit","tell me about infrastructure in MNIT.", "what are the facilities available in MNIT?", "what are the buildings in MNIT?"],
+            "responses": ["The campus area has been organized in four functional sectors:\ni. Instructional Buildings\nii. Central Facilities\niii. Students Hostels\niv. Staff Colony"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "fest",
+            "patterns": ["what are the different fests organized in MNIT","is there any fest organized in MNIT","what are different festivals organized in college","what is the name of annual cultural fest of MNIT","what is the name of annual cultural festival of MNIT","what is the name of annual technical festival of MNIT","what is the name of annual technical fest of MNIT","what is the name of sports fest in MNIT","what is the name of annual sports festival in MNIT"],
+            "responses": ["Every year, MNIT holds Blitzschlag the annual cultural festival, sphinx the technical festival and Malaviya Sports Tournament as annual sports festival."],
+            "context_set": ""
+        },
+
+        {   "tag": "future_plan",
+            "patterns": [" future plans of  MNIT?", " plans in future of mnit?", "what is mnit's future plan?"],
+            "responses": ["The legacy of this Institute has now entered its Golden Jubilee year. During next ten years on the basis of road maps received from all academic Heads, the total strength of the students in UG and PG courses shall be around 10,000. For increased strength of students, additional space of approximately 120,000 m2 shall be required. \n\t  The proposed building will be only one of its kinds which will provide dedicated floors for Faculties of different trades of Engineering, Architecture, Sciences and Management will be constructed on campus to meet the present and future demands. Needless to say this building shall be an icon."],
+            "context_set":""
+        }
+   ]
+}

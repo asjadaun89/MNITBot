@@ -1,0 +1,276 @@
+{"intents":
+    [
+
+        {
+            "tag": "CC",
+            "patterns": ["where is computer center","where is CC","tell me about computer center","where is computer center located","where is computer center situated","wheat is the location of CC","tell me about CC","is there any computer center in MNIT","where is CC situated"],
+            "responses": ["Computer Centre is located at the first floor of Prabha Bhawan.it has 510 high end PCs including 120 graphics work stations placed in ten fully air conditioned computer laboratories.It remains open round the clock all seven days."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "CC_timings",
+            "patterns": ["what are  computer center timings","what are CC timings","tell me about computer center timings","when does computer center remain open","when does computer center open","when does CC close","when does computer center close","when does CC open ","what is computer center visiting time","what is visiting time of CC"],
+            "responses": ["Computer Centre remains open round the clock all seven days."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Chairman_CC",
+            "patterns": ["tell me the name chairman of CC","who is chairman of CC","who is chairman of computer center","what is the name of chairman of computer center","what is the name of CC chairman","who is CC incharge","who is incharge of computer center","tell me the name of computer center chairman"],
+            "responses": ["The chairman of Computer Center is Dr. Rohit Goyal","Dr. Rohit Goyal is the chairman of Computer Center"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Coordinator_CC",
+            "patterns": ["tell me the name of Coordinator of CC","who is Coordinator of CC","who is Coordinator of computer center","what is the name of Coordinator of computer center","what is the name of CC Coordinator","tell me the name of computer center Coordinator"],
+            "responses": ["Dr. Sanjay Rajpal is the Coordinator of computer center","The Coordinator of computer center is Dr. Sanjay Rajpal"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Chairman_EICT",
+            "patterns": ["what is the name of chairman of Electronics and ICT academy","who is chairman of electronics and ICT academy","who is chairman of electronics and ICT academy","tell me the name of chairman of electronics and ICT academy","what is the name of Electronics and ICT academy chairman","who is electronics and ICT academy chairman"],
+            "responses": ["Dr. Uday Kumar Yaragatti is the chairman of Electronics and ICT academy","The chairman of Electronics and ICT academy is Dr.  Uday Kumar Yaragatti"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "GIAN",
+            "patterns": ["what does GIAN stand for?","what is full form of GIAN","what is GIAN cell","what is GIAN","tell me something about GIAN cell","tell me about GIAN cell","Tell me about GIAN"],
+            "responses": ["Global Initiative of Academic Networks (GIAN) in Higher Education aimed at tapping the talent pool of scientists and entrepreneurs, internationally to encourage their engagement with the institutes of Higher Education in India"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Coordinator_GIAN",
+            "patterns": ["what is the name of Coordinator of GIAN cell","who is Coordinator of GIAN","who is Coordinator of GIAN cell","what is the name of Coordinator of GIAN","tell me the name of GIAN cell Coordinator","what is the name of GIAN Coordinator"],
+            "responses": ["Dr. Vijay Janyani is the Coordinator of GIAN cell","The Coordinator of GIAN cell is Dr. Vijay Janyani"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "EDC",
+            "patterns": ["what does EDC stand for?","what is full form of EDC","what is EDC","what is entrepreneurship development cell"," tell me something about EDC","tell me about ED cell","what is ED cell","Tell me about EDC","tell me about entrepreneurship development cell"],
+            "responses": ["entrepreneurship development cell is established To spread entrepreneurship, through education, research and training, thus accelerating economic growth, by increasing the supply of new entrepreneurs and strengthen performance of the existing ones"],
+            "context_set": ""
+        },
+
+         {
+            "tag": "Gym_location",
+            "patterns": ["where is gymnasium loacated in MNIT?","where is gym in MNIT","is there any gym in MNIT","where is gym situated in MNIT"," tell me something about the loacation of gym","tell me about loacation of gym in mnit","where can i find gym in MNIT","where can i find gymnasium in MNIT"],
+            "responses": ["gymnasium is located at ground floor of the VLTC building."],
+            "context_set": ""
+        },
+
+
+        {
+            "tag": "gym_timings",
+            "patterns": ["what are the gymnasium timings","what are timings for gym","tell me about gymnasium timings","tell me about timing of gym","when does gym open","when does gym close","what is gymnasium opening time","what is gymnasium closing time"],
+            "responses": ["Gymnasium timings are Morning  6:00 AM to 8:00 AM and Evening 4:00 PM to 9:00 PM"],
+            "context_set": ""
+        },
+
+         {
+            "tag": "sports_facilities",
+            "patterns": ["what are the different sports facilities available in MNIT","what are the sports facilities in mnit?","what are sports and games played in mnit","what are different sports played in MNIT","what are different games played in MNIT","is there any sports complex in MNIT"],
+            "responses": ["Facilities for sports and games include a soccer ground, a cricket ground with nets, three basketball courts, three lawn tennis courts, three volleyball courts and three raw volleyball courts, one indoor badminton court and other outdoor badminton courts, a gymnasium, a billiards room, a chess room, a jogging track, table tennis boards and a swimming pool is in future plans."],
+            "context_set": ""
+        },
+        {
+            "tag": "library",
+            "patterns": ["tell me something about library in mnit","how is mnit library","how is library facility in mnit","tell me about library","how many books are there in library","how many number of books are present in MNIT"],
+            "responses": ["Now known as LEARNING RESOURCE CENTRE (LRC), aids the teaching and research programmes of the institute and provides facilities for general reading and information with 156,314 print books, 3073 ebooks, 10,000 e-journals, international journals, technical pamphlets, standards, CD-ROMs and periodicals."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "library_timings",
+            "patterns": ["what are the library timings","what are timings for library","what are timings of library","what are visiting time of library","when can i visit library","what are visiting hours of library"],
+            "responses": ["library Timings are 09.00 AM - 08.00 PM (Monday to Saturday) 09.00 AM - 04.00 PM (Sunday & Other Holidays)"],
+            "context_set": ""
+        },
+
+
+
+
+        {
+            "tag": "library_location",
+            "patterns": ["where can i find  library in mnit","where is mnit library located","where is library situated in MNIT","is there any library in mnit","what is the location of library in MNIT"],
+            "responses": ["library is situated near central lawn and Management studies building.","You can find library near central lawn."],
+            "context_set": ""
+        },
+        
+        {
+            "tag": "sports_officer",
+            "patterns": ["what is the name of sports officer of MNIT","who is sports officer in MNIT","tell me the name of sports officer of MNIT","give me the name MNIT sports officer"],
+            "responses": ["Dr. Subir Debnath is the sports officer for Outdoor sports and Dr. Virender Singh is sports officer for Indoor Sports and gymnasium"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "sports_timings",
+            "patterns": ["what are the sports timings","what are timings for sports","sports timings","timing of sports","what are sports complex timings"],
+            "responses": ["Morning  6:00 AM to 8:00 AM and Evening 4:00 PM to 9:00 PM"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "guest_house",
+            "patterns": ["is there any guest house in mnit","where is guest house in mnit","where can i find guest house","how do i book guest house","give me phone number of guest house","what is the phone number guest house","what are contact details of guest house","give me guest house contact details","tell me the guest house phone number","i want to book a room in guest house","how to book guest house"],
+            "responses": ["Guest house is situated in front of childrens park.For Booking guest house contact Phone No.- 0141-2713199 Email Id:- guesthouse@mnit.ac.in"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "canteen",
+            "patterns": ["where is the canteen in mnit","where can i find canteen in mnit","where can i find a place to eat in MNIT","where is mnit canteen situated","is there any canteen facility in MNIT","where can i eat food in mnit","i want to eat food","i want food","i am hungry","where can i find canteen in mnit"],
+            "responses": ["The central canteen is Annapurna located near prabha bhawan.You can also find Vinay Canteen in Hostel 4."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "order_canteen",
+            "patterns": ["how can i oreder food from canteen","tell me how to order food from canteen","what is the phone number for ordering food from canteen","i want to order food","how to order food from canteen","does canteen deliver food","can i order food from canteen"],
+            "responses": ["For placing orders kindly contact: Mr. Manvendra Singh: Mob. 9783129692. To order meals and snacks, the booking timings will be from 8:00 AM every day. Minimum order should be of Rupees 100/- and payment must be made on cash basis at the time of delivery only"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "dispensary",
+            "patterns": ["where is dispensary in MNIT","what is the medical facility in MNIT","where can i find dispensary in MNIT","is there any dispensary in MNIT","i am not feeling well","i am sick","where is dispensary in mnit","where is dispensary","where is dispensary loacated","where is dispensary situated"],
+            "responses": ["Dispensary is located near security control room.Phone number: 0141 2713305 Timings: 09.00 AM - 08.00 PM (Monday to Saturday) 09.00 AM - 04.00 PM (Sunday & Other Holidays)"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "dispensary_timings",
+            "patterns": ["what are the dispensary timings","what are timings for dispensary","what are timings of dispensary","what are visiting time of dispensary","when can i visit dispensary","what are visiting hours of dispensary"],
+            "responses": ["Dispensary Timings are 09.00 AM - 08.00 PM (Monday to Saturday) 09.00 AM - 04.00 PM (Sunday & Other Holidays)"],
+            "context_set": ""
+        },
+
+        {   
+            "tag":"dispensary_contact",
+            "patterns":["what is dispensary's contact","give me dispensary phone number","what is dispensary phone number?","what is the phone number of dispensary","what is the contact number of dispensary","what are the contact details of dispensary?","give me the contact details of mnit dispensary","give me the phone number of dispensary"],
+            "responses":["The phone number of MNIT dispensary is 0141 2713305","The contact number of MNIT dispensary is 0141 2713305"],
+            "context_set":""
+        },
+
+        {
+            "tag": "ambulance",
+            "patterns": ["how to call ambulance in MNIT","call ambulance","what is ambulance contact number","what is ambulance phone number","emergency","i need ambulance","medical emergency","i have medical emergency","give me the phone number of ambulance","give me the contact number of ambulance"],
+            "responses": ["call 9549650438 for ambulance","The phone number of ambulance is 9549650438"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "banks",
+            "patterns": ["tell me about banks in MNIT","where is bank in MNIT","where can i find bank in MNIT","are there any banks in MNIT","where is bank in mnit","which banks are available in mnit","i want to deposit money"],
+            "responses": ["There are two banks in mnit. SBI is situated near gargi hostel and ICICI bank is located at Ground Floor of  Prabha bhawan."],
+            "context_set": ""
+        },
+
+        {   
+            "tag":"bank_timings",
+            "patterns":["tell me about bank timings","what are the timings of bank","give me the timings of banks","what is bank visiting time","what are bank visiting hours","when does bank open","when does bank close"],
+            "responses":["Bank timings are 9.00 am - 5.00 pm (Monday - Friday) 9.00 am - 2.00 pm (Saturday)"],
+            "context_set":""
+        },
+
+        {
+            "tag": "ICICI_bank",
+            "patterns": ["tell me about ICICI bank","give me the details of ICICI bank","what is ICICI bank phone number","what are ICICI bank contact details","what is phone number of ICICI bank","give me details of ICICI bank"],
+            "responses": ["The phone number of ICICI bank is 0141-2713470 and 3227720. Its MNIT Branch Manager is Mr. Chetan Narayan Mobile 9649269888"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "SBI_bank",
+            "patterns": ["tell me  about SBI bank","give me details of SBI bank","what is SBI bank phone number","give me SBI bank contact details","what is phone number of SBI bank","give me details of SBI bank"],
+            "responses": ["The phone number of SBI bank is 0141-2529111 and 2529441 and its MNIT Branch Manager is Mr. Vipin Verma 9261129670"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "ATM",
+            "patterns": ["ATMs near me","where to find ATM","i need money","i want cash","i want to withdraw cash","i want to withdraw money","where can i find ATM in mnit","where is ATM lcoated inside MNIT","where is ATM situated in mnit","is there any ATM in mnit"],
+            "responses": ["ther are two ATMs inside the campus. One is located near security control room and other is inside Annapurna canteen"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "postoffice",
+            "patterns": ["tell me post office in MNIT","where is post office located in MNIT","where can i find post office in MNIT","where is post office in mnit","is there any post office in MNIT","where is post office situated in MNIT"],
+            "responses": ["There is a post office inside the campus located inside prabha bhawan."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "pincode",
+            "patterns": ["what is postal code of mnit","postal code","pin code","pin code of MNIT","postal code of mnit","what is the pincode of the region in which mnit is located","what is the pin code of the area in which MNIT is situated"],
+            "responses": [" The pin code of MNIT is 302017","The postal code of MNIT is 302017."],
+            "context_set": ""
+        },
+         {   
+            "tag":"postoffice_timings",
+            "patterns":["tell me the post office timings","what are the timings of post office","give me timings of post office","what is post office visiting time","what are post office visiting hours","when does post office open","when does post office close"],
+            "responses":["The timings of post office are 9.00 am - 5.00 pm (Monday - Friday) and 9.00 am - 2.00 pm (Saturday)"],
+            "context_set":""
+        },
+
+        {
+            "tag": "hostels",
+            "patterns": ["tell me about hostels in mnit","how are hostel facilities in mnit","what is the hostel facility in MNIT","how are hostels in MNIT"],
+            "responses": ["MNIT has 10 boys and 2 girls hostels with an accommodation capacity of about 3000 students. The largest among them is Aurobindo Hostel comprising 950 single bed rooms. First year students are allotted triple bed rooms and from second Year onwards everyone gets single bed rooms. Most of the hostels are equipped with mess. Students are given Wifi, LAN, common room and sports facilities in hostels."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "gates",
+            "patterns": ["how many gates are there in mnit","how many exit gates are there in MNIT","what all passway gates in MNIT","how many gates are there to pass in mnit"],
+            "responses": ["MNIT has 4 functional gates currently : Main Gate, Deans Gate, Back Gate and Faculty Residents gate."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "shopping_complex",
+            "patterns": ["where can i find a shopping complex in MNIT","is there any shopping complex in MNIT","where is shopping complex in mnit","where can i find shopping complex in MNIT"],
+            "responses": ["Shopping complex is lcoated near Gargi Hostel and in front of Pandit Malaviya chowk"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "societies",
+            "patterns": ["what are different societies to join in MNIT","what are different clubs in MNIT that i can join","What extracurricular activities are there for students in mnit?","tell me the names of some of Cultural societies in mnit","what are different cultural societies in mnit?"],
+            "responses": ["MNIT has different cultural socities to hone and sharpen different talents of students in addition to academics. Some of such socities are Zine-the robotic society, DIL- the dramatics society, Mavericks - Weekly newsletter service, Technical Society,creative arts and cultural society"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "vltc",
+            "patterns": ["tell me something about vltc","where are the lectures held?","where are the lectures conducted?","where are the classes taken","where are the lectures taken","what is vltc","what does vltc stands for?"],
+            "responses": ["VLTC stands for Vivekanand Lecture Theatre Complex. It is the place where lectures are held. It has 40 class rooms that can accommodate about 5,500 students at a time.It holds the record of being Asia's Largest Lecture Theatre Complex"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "mrc",
+            "patterns": ["what is MRC","what is material research center","is there any research center in mnit?","what does MRC stands for","tell me about MRC","tell me something about MRC"],
+            "responses": ["Materials Research Center (MRC) has infrastructure for advanced research in various streams with focus on materials. The facilities are extended to the scientists and researchers of other institutes. Equipment at the center, set up at the cost of $6.3 million, offers a wide range of research assistance. Various machines, facilities and software available in the lab"],
+            "context_set": ""
+        },
+
+        
+
+        {   
+            "tag": "recent_events",
+            "patterns": ["what are some recent events held in MNIT?", "what are some recent programs that were held in MNIT?", "what are the functions organised in MNIT?"],
+            "responses": ["Annual Cultural Fest - Blitzschlag, Annual technical Fest - Sphinx, Malaviya Sports tournament etc"],
+            "context_set": ""
+        }
+
+    ]
+}
+ 

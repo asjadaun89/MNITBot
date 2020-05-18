@@ -1,0 +1,668 @@
+{"intents":
+    [
+
+        {
+            "tag": "no_of_dept",
+            "patterns": ["what is the total number of departments in MNIT","how many branches are there in MNIT","what is total Number of branches in MNIT","how many departments are there in MNIT","tell me about the total departments in MNIT","give me the total number of departments in MNIT"],
+            "responses": ["There are total 16 departments in MNIT"],
+            "context_set": ""
+        },
+
+        {
+        	"tag": "sp_archi",
+            "patterns": ["what are specializations available in architecture?","what are specializations available in architecture and planning","tell me about the specializations available in planning","give me details about specializations in planning and architecture","what are specialization courses in architecture and planning","tell me about the specialization courses in architecture"],
+            "responses": ["The specialization course available in architecture and planning is Urban planning"],
+            "context_set": ""
+        },
+
+        {
+        	"tag": "sp_energy",
+            "patterns": ["what are specializations available in energy and environment ?","what are specializations available in center of energy and environment","tell me about the specializations in energy and environment","give me details of  specializations in center of energy and environment","what are the specialization courses in energy and environment"],
+            "responses": ["The specialization available in enregy and environment department is Renewable Energy"],
+            "context_set": ""
+        },
+
+        {
+        	"tag": "sp_chemical",
+            "patterns": ["what are specializations available in chemical engineering?","what are specialization courses available in chemical engineering","tell me about the specializations in chemical engineering","give me the names of specializations in chemical engineering department","what are the specialization courses in chemical department"],
+            "responses": ["The specialization available in chemical engineering department is Chemical Engineering"],
+            "context_set": ""
+        },
+
+        {
+        	"tag": "sp_civil",
+            "patterns": ["what are specializations available in civil engineering?","what are specialization courses available in civil engineering","tell me about the specializations in civil engineering","give me the names of specializations in civil engineering department","what are specialization courses in civil department"],
+            "responses": ["The specializations available in civil engineering department are Disaster assessement and mitigation , environmental engineering, strcutural engineering, transportation engineering,water resources engineering"],
+            "context_set": ""
+        },
+
+        {
+        	"tag": "sp_cs",
+            "patterns": ["what are specializations available in Computer science adnd engineering?","what are specialization courses available in cse","what are the specializations available in cs","tell me about specializations available in computer science and engineering department","what are specialization courses in cse ","waht are specialization courses computer science and  engineering"],
+            "responses": ["The sepecializatons available in computer science and engineering department are computer engineering and information security, computer engineering"],
+            "context_set": ""
+        },
+
+        {
+        	"tag": "sp_electronics",
+            "patterns": ["what are specializations available in electronics and communication engineering?","what are specialization courses available in electronics and communication engineering","give me the names of specializations in Eleectronics and communication engineering","what are specializations in Electronics","what are specialization courses in Ece","what are specialization courses electronics and communication engineering"],
+            "responses": ["The sepecializatons available in electronics communication and engineering department are electronics and communication engineering, embedded systems, V L S I design, wireless and optical communication"],
+            "context_set": ""
+        },
+
+        {
+        	"tag": "sp_mech",
+            "patterns": ["what are specializations available in Mechanical engineering?","what are specialization courses available in Mechanical engineering","tell me about specializations available in Mechanical engineering","tell me about specializations in Mechanical engineering department","give me the names of specialization courses in Mechanical department","tell me the names of specialization courses in  Mechanical engineering"],
+            "responses": ["The sepecializatons available in Mechanical engineering department are Design Engineering, industrial Engineering,Production Engineering, thermal engineering"],
+            "context_set": ""
+        },
+
+        {
+        	"tag": "sp_meta",
+            "patterns": ["what are specializations available in metallurgical and materials engineering?","what are specialization courses available in metallurgical and materials engineering","what are the specializations available in metallurgy","tell me about the specializations in metallurgical engineering department","give me the names of specialization courses in metallurgy","give me  the names of specialization courses in metallurgical and materials engineering"],
+            "responses": ["The sepecializatons available in metallurgical and materials  engineering department are Metallurgical and materials engineering, Steel Technology"],
+            "context_set": ""
+        },
+
+        {
+        	"tag": "sp_management",
+            "patterns": ["what are specializations available in management studies?","what are specialization courses available in management","give me the names of specializations in management studies","tell me about the specializations available in management","tell me about the specialization courses in management studies","what are specialization courses  in  management studies"],
+            "responses": ["The specialization course available in management studies department is management studies"],
+            "context_set": ""
+        },
+
+        {
+        	"tag": "sp_chemistry",
+            "patterns": ["what are specializations available in chemistry department?","what are specialization courses available in chemistry","tell me about the specializations in chemistry department","tell me about the specializations in chemistry","tell me about the specialization courses in department of chemistry","what are specialization courses available in department of chemistry."],
+            "responses": ["The specialization available in department of chemistry is Applied chemistry"],
+            "context_set": ""
+        },
+
+        {
+        	"tag": "sp_physics",
+            "patterns": ["what are specializations available in physics department?","what are specialization courses available in physics","tell me about the specializations in physics department","give me the names of specializations in physics","what are specialization courses in department of physics","tell me about the specialization courses in  physics department"],
+            "responses": ["The specialization course available in department of physics is  Applied physics"],
+            "context_set": ""
+        },
+
+
+        {   "tag": "branches",
+            "patterns": ["what are different streams offered in MNIT","what are the name of the branches in MNIT","list the name of the departments in MNIT ","what are different departments in mnit?","what are the academic programmes offered by MNIT","what are the courses available in MNIT","what are departments in mnit?","what are branches available in MNIT","What majors are offered in MNIT","what are the different majors available in MNIT","what are the branches in mnit?","in what all branches MNIT offers degree","what are the branches offered in MNIT?", "what are courses offered in MNIT?", "what are the subjects in MNIT?","tell me the names of courses offered in mnit","give me the names of courses offered in MNIT","tell me about the courses offered in mnit Jaipur"],
+            "responses": ["MNIT offers following branches - Computer Science and Engineering , Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering,Chemical Engineering, Metallurgical and materials Engineering,Civil Engineering and Architecture and Planning."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_archi",
+            "patterns": ["who is hod of architecture department","who is hod of the architecture and planning department","who is architecture department hod?","who is head of department architecture and planning","who is head of department of architecture and planning","tell me the name of head of department  of architecture and planning","tell me the name of hod of architecture and planning","give me the name of hod of architecture and planning","give the name of head of department of architecture and planning"],
+            "responses": ["Ms. Meenu Varshney is the H O D of architecture and planning","The head of department of architecture and planning is Ms. Meenu Varshney.","Ms. Meenu Varshney is head of department of architecture and planning"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_archi",
+            "patterns": ["tell me the names of professors of architecture department","who are professors of the architecture and planning department","give me the list of architecture department professors","give me the list of architecture and planning professors","names of the professors of architecture and planning","give me the names fo architecture and planning","what is the faculty in architecture and planning department","give me the list of faculty of architecture and planning department"],
+            "responses": ["The professors of architecture and planning department are  Ms. Meenu Varshney, Prof. Alok Ranjan, Prof. Rajeev Shringi, Dr. Tarush Chandra , Ms. Kalpana pandit , Dr. Nand Kumar, Mr. Ram Niwas Sharma,Dr. Rina Surana, Dr. Satish Pipralia"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_CS",
+            "patterns": ["who is hod of Computer science and engineering department","who is hod of the cse department","who is hod of cse","who is cs hod?","who is cse hod","what is the name  of head of department Computer science and engineering","give me the name of head of department of cse","tell me the name of head of department of cs","tell me about the name of head of department of computer science and engineering"],
+            "responses": ["Dr. Pilli Emmanuel Shubhakar is the H O D of computer science and engineering department","The head of computer science and engineering department is Dr. Emmanuel Pilli"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_CSE",
+            "patterns": ["tell me the names of professors of computer science and engineering department","who are professors of the computer science and  engineering department","give me the list of computer science and engineering engineering department professors","give me the list of professors of computer science and engineering department","what are the names of the professors of department of computer science and  engineering ","what is the faculty in Computer science engineering department","give me the list of faculty of computer science and  engineering department.","give me the list of professors of CS department"],
+            "responses": ["The professors of computer science and engineering are Dr. Emmanuel Pilli , Dr. Girdhari Singh, Dr. Vijay Laxmi, Dr. Dinesh Goplani, Dr. Meenakshi Tripathi , Dr. Mushtaq Ahmed, Dr. Namita Mittal, Dr. Neeta Nain, Dr. Yogesh Kumar Meena, Dr. Arka Prokash Mazumdar, Dr. Ashish Kumar Tripathi, Dr. Dinesh Kuamr Tyagi, Dr. Jyoti Grover, Dr. Lavika Goyal, Dr. Mahipal Jadeja, Dr. Ramesh Babu Batula, Dr. Santosh Kumar Vipparthi, Dr. Satyendra Singh chauhan, Dr. Smita Naval","the faculty of computer science and engineering department includes Dr. Emmanuel Pilli , Dr. Girdhari Singh, Dr. Vijay Laxmi, Dr. Dinesh Goplani, Dr. Meenakshi Tripathi , Dr. Mushtaq Ahmed, Dr. Namita Mittal, Dr. Neeta Nain, Dr. Yogesh Kumar Meena, Dr. Arka Prokash Mazumdar, Dr. Ashish Kumar Tripathi, Dr. Dinesh Kuamr Tyagi, Dr. Jyoti Grover, Dr. Lavika Goyal, Dr. Mahipal Jadeja, Dr. Ramesh Babu Batula, Dr. Santosh Kumar Vipparthi, Dr. Satyendra Singh chauhan, Dr. Smita Naval"],
+            "context_set": ""
+        },
+
+        {   "tag": "CSE_dept_vision",
+            "patterns": ["what is the vision of department of computer science and engineering ? ","what is the vision of computer science and  engineering department","tell me about the vision of computer science and  engineering department","tell me about the vision of department of computer science and engineering"],
+            "responses": ["the vision of department  of computer science and engineering department is To be a Centre of Excellence in Computer Science and Engineering domain and work with industry on cutting edge technology to address current and emerging challenges in global perspective for the development of society."],
+            "context_set": ""
+        },
+
+        {   "tag": "CSE_dept_mission",
+            "patterns": ["what is the mission of department of computer science and engineering ? ","what is the mission statement of computer science and  engineering department","tell me about the mission of computer science and  engineering department","tell me about the mission of department of computer science and engineering"],
+            "responses": ["the mission statement of department  of computer science and engineering department is To impart quality engineering education, enhance problem solving skills, foster research and innovation, encourage entrepreneurship and mold students of integrity and ethics to provide leadership with social sensitivity for the betterment of the country and humanity as a whole."],
+            "context_set": ""
+        },
+
+
+        {
+            "tag": "HOD_EC",
+            "patterns": ["who is hod of electronics and communication engineering department","who is hod of the ece department","who is hod of ece","who is ec hod?","who is ece hod","who is head of department electronics and communication engineering","who is head of department of ece","who is head of department of ece","what is the name of H O D of Electronics and communication engineering department","tell me the name of head of department of electronics and communication engineering department"],
+            "responses": ["Dr. D. Boolchandani is the H O D of electronics and communication engineering department ","The head of department of electronics and communication engineering department is Dr. D. Boolchandani"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_electronics",
+            "patterns": ["tell me the names of professors of electronics and communication engineering department","who are professors of the electronics and communication engineering department","give me the list of electronics and communication engineering department professors","give me the list of professors of electronics and communication engineering department","what are the names of the professors of department of electronics and communication engineering ","what is the faculty in electronics and communication engineering department","give me the list of faculty of Electronics and communication engineering department."],
+            "responses": ["The professors of Electronics and communication engineering department are Dr.D. Boolchandani, Prof. Vishwanath Sinha, Prof. R. P. yadav, Dr. Ghanshyam Singh, Dr. K. K. Sharma, Dr. Lava Bhargava,Dr. Md. Salim","the faculty of electronics and communication engineering department includes Dr.D. Boolchandani, Prof. Vishwanath Sinha, Prof. R. P. yadav, Dr. Ghanshyam Singh, Dr. K. K. Sharma, Dr. Lava Bhargava,Dr. Md. Salim"],
+            "context_set": ""
+        },
+
+        {   "tag": "electronics_dept_vision",
+            "patterns": ["what is the vision of department of electronics and communication engineering? ","what is the vision of electronics and communication engineering department","tell me about the vision of electronics and communication engineering department","tell me about the vision of department of electronics and communication engineering"],
+            "responses": ["the vision of department  of electronics and communication engineering department is To create a centre for imparting technical education of international standards and conduct research at the cutting edge of electronics & communication technology to meet the current and future challenges of technological development."],
+            "context_set": ""
+        },
+
+        {   "tag": "electronics_dept_mission",
+            "patterns": ["what is the mission of department of electronics and communication engineering? ","what is the mission of electronics and communication engineering department","tell me about the mission of electronics and communication engineering department","tell me about the mission of department of electronics and communication engineering"],
+            "responses": ["the mission of department  of electrical engineering department is To create technical manpower for meeting the current and future demands of industry and academia: to recognize education and research in close interaction with electronics & communication & related industry with emphasis on the development of leadership qualities in the young men and women entering the portals of the institute with sensitivity to social development and eye for opportunities for growth in the international perspective."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_EE",
+            "patterns": ["what is the name of hod of electrical engineering department","who is hod of the electrical engineering department","who is hod of EE","who is electrical engineering hod?","who is head of department electrical engineering","who is head of department of EE","tell me the name of head of department of Electrical engineering  "],
+            "responses": ["Dr. Rajesh Kumar is the H O D of Electrical engineering department ","the head of department of Electrical engineering is Dr. Rajesh Kumar"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_electrical",
+            "patterns": ["tell me the names of professors of electrical engineering department","who are professors of the electrical engineering department","give me the list of electrical  engineering department professors","give me the list of professors of electrical engineering department","what are the names of the professors of department of electrical engineering ","what is the faculty in electrical engineering department","give me the list of faculty of Electrical engineering department."],
+            "responses": ["The professors of Electrical engineering department are  Dr. Rajesh Kumar,Prof. K. R. Niazi, Prof. R. A. Gupta, Prof. Harpal Tiwari, Dr. Manoj Fozdar, Dr. Rajiv Tiwari, Dr. Vikas Gupta","the faculty of electrical engineering department includes Dr. Rajesh Kumar,Prof. K. R. Niazi, Prof. R. A. Gupta, Prof. Harpal Tiwari, Dr. Manoj Fozdar, Dr. Rajiv Tiwari, Dr. Vikas Gupta "],
+            "context_set": ""
+        },
+
+        {   "tag": "electrical_dept_vision",
+            "patterns": ["what is the vision of department of electrical engineering? ","what is the vision of electrical engineering department","tell me about the vision of electrical engineering department","tell me about the vision of department of electrical engineering"],
+            "responses": ["the vision of department  of electrical engineering department isto create a center of imparting technical education in electrical engineering of international standard and conducting research at the cutting edge of technology & emerging field of electrical engineering to provide quality man power for meeting the current and future challenges."],
+            "context_set": ""
+        },
+
+        {   "tag": "electrical_dept_mission",
+            "patterns": ["what is the mission of department of electrical engineering? ","what is the mission of electrical engineering department","tell me about the mission of electrical engineering department","tell me about the mission of department of electrical engineering"],
+            "responses": ["the mission of department  of electrical engineering department is To provide quality education at under graduate and post graduate level in the field of Electrical Engineering for meeting the current and future requirement of power industry; to enhance and reorganize education and research in close interaction with industry and technological institution of national & international repute with emphasis on latest trends in engineering and technology. "],
+            "context_set": ""
+        },
+
+        {
+            "tag": "facilities_electrical",
+            "patterns": ["what are research facilities available in department of electrical engineering","what are facilities available at electrical engineering department","tell me about the facilities available at department of electrical engineering","tell me about the facilities available at electrical engineering department"],
+            "responses": ["The facilities available at electrical engineering department are advanced simulators like over headline and fault simulator, dc motors, dc generators, induction motors, synchronous machines,chopper module, inverter module, cyclo-converter, measuring instruments, control systems,microprocessors and microcontrollers etc","advanced simulators like over headline and fault simulator, dc motors, dc generators, induction motors, synchronous machines,chopper module, inverter module, cyclo-converter, measuring instruments, control systems,microprocessors and microcontrollers etc are some of the facilities available at department of electrical engineering"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_ME",
+            "patterns": ["what is the name of hod of Mechanical engineering department","who is hod of the ME department","who is hod of ME","who is ME hod?","who is ME hod","who is head of department Mechanical engineering","who is head of department of ME","tell me the name of head of department of Mechanical engineering","give me the name of head  of department of Mechanical engineering"],
+            "responses": ["Prof. Dilip Sharma is the H O D  of Mechanical engineering department","the head of department of Mechanical engineering is Prof. Dilip Sharma"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_mechanical",
+            "patterns": ["tell me the names of professors of mechanical engineering department","who are professors of the mechanical engineering department","give me the list of mechanical engineering department professors","give me the list of professors of mechanical engineering department","what are the names of the professors of department of mechanical engineering ","what is the faculty in mechanical engineering department","give me the list of faculty of mechanical engineering department."],
+            "responses": ["The professors of mechanical engineering department are Prof. Dilip Sharma, Prof. A.P.S. Rathore, Dr. M. P. Poonia, Dr. Rakesh Jain, Prof. S.L. Soni, Prof. G. D. Agarwal ","the faculty of mechanical engineering department includes Prof. Dilip Sharma, Prof. A.P.S. Rathore, Dr. M. P. Poonia, Dr. Rakesh Jain, Prof. S.L. Soni, Prof. G. D. Agarwal"],
+            "context_set": ""
+        },
+
+        {   "tag": "mechanical_dept_vision",
+            "patterns": ["what is the vision of department of mechanical engineering? ","what is the vision of mechanical engineering department","tell me about the vision of mechanical engineering department","tell me about the vision of department of mechanical engineering"],
+            "responses": ["the vision of department  of mechanical engineering department is To create a center of international standard for imparting education in Mechanical Engineering and conducting research at the cutting edge of technology to meet the current and future challenges of technological development."],
+            "context_set": ""
+        },
+
+        {   "tag": "mechanical_dept_mission",
+            "patterns": ["what is the mission of department of mechanical engineering? ","what is the mission of mechanical engineering department","tell me about the mission of mechanical engineering department","tell me about the mission of department of mechanical engineering"],
+            "responses": ["the mission of department of mechanical engineering department is To create enabling environment for excellent teaching, learning and research in order to produce leading entrepreneurs and innovators in the field of Mechanical Engineering for sustainable development."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "facilities_mechanical",
+            "patterns": ["what are research facilities available in department of mechanical engineering","what are facilities available at mechanical engineering department","tell me about the facilities available at department of mechanical engineering","tell me about the facilities available at mechanical engineering department"],
+            "responses": ["The facilities available at mechanical engineering department are workshops of welding, foundry, machining shop, fitting shop, tribology lab, CAD lab, metal cutting lab, Refrigeration and AC lab, Heat transfer lab, Design labs","workshops of welding, foundry, machining shop, fitting shop, tribology lab, CAD lab, metal cutting lab, Refrigeration and AC lab, Heat transfer lab, Design labs are some of the facilities available at department of mechanical engineering"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_chem",
+            "patterns": ["what is the name of hod of Chemical engineering department","who is hod of the chemical engineering department","who is chemical engineering department hod?","who is head of department chemical engineering","who is head of department of chemical engineering","tell me the name of head of department of chemical engineering","give me the name of head of chemical engineering department"],
+            "responses": ["Dr. Madhu Agarwal is the H O D of chemical engineering department","The head of department of chemical engineering  is Dr. Madhu Agarwal. "],
+            "context_set": ""
+        },
+
+        {   "tag": "chemical_dept_vision",
+            "patterns": ["what is the vision of department of chemical engineering? ","what is the vision of chemical engineering department","tell me about the vision of chemical engineering department","tell me about the vision of department of chemical engineering"],
+            "responses": ["the vision of department  of chemical engineering department is To create a center for imparting technical education of international standards and conducting research at the cutting edge of technology to meet the current and future challenges of chemical and allied industries of the nation."],
+            "context_set": ""
+        },
+
+        {   "tag": "chemical_dept_mission",
+            "patterns": ["what is the mission of department of chemical engineering? ","what is the mission of chemical engineering department","tell me about the mission of chemical engineering department","tell me about the mission of department of chemical engineering"],
+            "responses": ["the mission of department  of chemical engineering department is  to impart quality education in chemical engineering and allied areas, foster research and development, evolve innovative applications of technologies, encourage entrepreneurship and ultimately mould younger generation capable of assuming leadership of the society for the betterment of the country in an ethical manner."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_chemical",
+            "patterns": ["tell me the names of professors of chemical engineering department","who are professors of the chemical engineering department","give me the list of chemical engineering department professors","give me the list of professors of chemical engineering department","what are the names of the professors of departments of chemical engineering ","what is the faculty in chemical engineering department","give me the list of faculty of chemical engineering department."],
+            "responses": ["The professors of chemical engineering department are Dr. Madhu Agarwal, Dr. Satyendra Prasad Chaurasia, Dr. Alok Gupta, Dr. Kailash Singh, Dr. Raj Kumar Vyas, Dr. Surja George","the faculty of chemical engineering department includes Dr. Madhu Agarwal, Dr. Satyendra Prasad Chaurasia, Dr. Alok Gupta, Dr. Kailash Singh, Dr. Raj Kumar Vyas, Dr. Surja George. "],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_civil",
+            "patterns": ["what is the name of hod of civil engineering department","who is hod of the civil engineering department","who is civil engineering department hod?","who is head of department civil engineering","who is head of department of civil engineering","tell me the name of head of department of civil engineering ","give me the name of head of department of civil engineering"],
+            "responses": ["Dr. Mahesh Kumar Jat is the H O D of civil engineering department","the head of department of chemical engineering department is Dr. Mahesh Kumar Jat"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_civil",
+            "patterns": ["tell me the names of professors of civil engineering department","who are professors of the civil engineering department","give me the list of civil engineering department professors","give me the list of professors of civil engineering department","what are the names of the professors of departments of civil engineering ","what is the faculty in civil engineering department","give me the list of faculty of civil engineering department."],
+            "responses": ["The professors of civil engineering are  Dr. Mahesh Kumar Jat, Dr. A. B. Gupta, Dr. Ravindra Nagar, Dr. Rohit Goyal, Prof. Sudhir Kumar, Dr. Y. P. Mathur","the faculty of civil engineering department includes Dr. Mahesh Kumar Jat, Dr. A. B. Gupta, Dr. Ravindra Nagar, Dr. Rohit Goyal, Prof. Sudhir Kumar, Dr. Y. P. Mathur"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "facilities_Civil",
+            "patterns": ["what are research facilities available in department of civil engineering","what are facilities available at civil engineering department","tell me about the facilities available at department of civil engineering","tell me about the facilities available at civil engineering department"],
+            "responses": ["The facilities available at civil engineering department are computer lab, environmental engineering lab, road material testing lab, hydraulics lab, geology lab, soil lab, concrete lab, etc. ","computer lab, environmental engineering lab, road material testing lab, hydraulics lab, geology lab, soil lab, concrete lab, etc. are some of the facilities available at department of civil engineering"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_meta",
+            "patterns": ["what is the name of hod of metallurgy department","who is hod of the metallurgical and materials science engineering department","who is metallurgical and materials science engineering department hod?","who is head of department metallurgical and materials science engineering","who is head of department of metallurgical and materials science engineering","tell me the name of head of department of metallurgical and materials science engineering","give me the name of head of department of metallurgical and materials science engineering"],
+            "responses": ["Dr. RAJENDRA KUMAR GOYAL is the H O D of department of metallurgical and materials engineering ","the head of department of metallurgical and materials engineering is Dr. RAJENDRA Kumar GOYAL"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_meta",
+            "patterns": ["tell me the names of professors of metallurgical and materials engineering department","who are professors of the metallurgical and materials engineering department","give me the list of metallurgy engineering department professors","give me the list of professors of metallurgical and materials engineering department","what are the names of the professors of departments of metallurgical and materials engineering ","what is the faculty in metallurgy engineering department","give me the list of faculty of metallurgical and materials engineering department."],
+            "responses": ["The professors of metallurgical and materials engineering are department are Dr. RAJENDRA Kumar goyal, Dr. Upendra Pandel, Dr R. K. Duchaniya, Dr. Sushil Kuamr Gupta, Dr. Ajay Kumar Pradhan, Dr. Brij Mohan Mundotiya ","the faculty of metallurgical and materials engineering department includes Dr. RAJENDRA Kumar goyal, Dr. Upendra Pandel, Dr R. K. Duchaniya, Dr. Sushil Kuamr Gupta, Dr. Ajay Kumar Pradhan, Dr. Brij Mohan Mundotiya "],
+            "context_set": ""
+        },
+
+        {   "tag": "meta_dept_vision",
+            "patterns": ["what is the vision of department of metallurgical and materials engineering? ","what is the vision of metallurgical and materials engineering department","tell me about the vision of metallurgy engineering department","tell me about the vision of department of metallurgical and materials  engineering"],
+            "responses": ["the vision of department of metallurgical and materials engineering department is To establish a centre for imparting Metallurgical and Materials Engineering education of international standards and conducting progressive and innovative research to meet the current and future challenges of technological development."],
+            "context_set": ""
+        },
+
+        {   "tag": "meta_dept_mission",
+            "patterns": ["what is the mission of department of metallurgical and materials engineering? ","what is the mission of metallurgical and materials engineering department","tell me about the mission of metallurgical and materials engineering department","tell me about the mission of department of metallurgical and materials engineering"],
+            "responses": ["the mission of department of metallurgical and materials engineering department is To provide Metallurgical and Materials Engineering manpower for meeting the current and future demands of the Metallurgical and Materials Engineering industry, research organization and academic institutions by imparting quality educations."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "facilities_meta",
+            "patterns": ["what are research facilities available in department of metallurgical and materials engineering","what are facilities available at metallurgical and materials engineering department","tell me about the facilities available at department of metallurgical and materials engineering","tell me about the facilities available at metallurgical and materials science engineering department"],
+            "responses": ["The facilities available at metallurgical and materials engineering department are carbon sulfur determinator, rectifier, disc polishing machine, torque meter, salt bath furnace, X ray unit, tabor tester, corrosion testing equipments, coal rolling mill, floatation cell ","carbon sulfur determinator, rectifier, disc polishing machine, torque meter, salt bath furnace, X ray unit, tabor tester, corrosion testing equipments, coal rolling mill, floatation cell  etc. are some of the facilities available at department of metallurgical and materials engineering"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_CEE",
+            "patterns": ["who is hod of center for energy and environment","who is hod of the center of energy and environment","what is the name of head of department of center of energy and environment","tell me the name of the head of department of center of energy and environment ?"],
+            "responses":["Dr. Vivekanand is head of department of center of energy and environment","The head of department of center for energy and environment is Dr. Vivekanand."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_CEE",
+            "patterns": ["tell me the names of professors of center of energy and environment department","who are professors of the center of energy and environment","give me the list of center of energy and environment department professors","give me the list of enregy and environment professors","what are the names of the professors of center of enregy and environment","give me the names of professors of center of energy and environment ","what is the faculty in center for energy and environment department","give me the list of faculty of center for energy and environment department"],
+            "responses": ["The professors of center of enregy and environment department are Dr. Jyotirmay Mathur, Dr. Rajesh Kumar,Dr. Sanjay Mathur,Dr. Tarush Chandra,Dr. Rohit Bhakar","The faculty of center for energy and environment includes Dr. Jyotirmay Mathur,Dr. Sanjay Mathur,Dr. Tarush Chandra,and Dr.Rohit Bhakar."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_chemistry",
+            "patterns": ["who is hod of department of chemistry","who is hod of chemistry department","what is the name of head of department of chemistry","tell me the name of the head of department of chemistry","who is head of department of chemistry"],
+            "responses":["is Dr. Ragini Gupta is head of department of chemistry","The head of department of chemistry is Dr. Ragini Gupta."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_chemistry",
+            "patterns": ["tell me the names of professors of chemistry department","who are professors of the chemistry department","give me the list of chemistry department professors","give me the list of professors of  department of chemistry","what are the names of the professors of department of chemistry ","what is the faculty in chemistry department","give me the list of faculty of chemistry department."],
+            "responses": ["The professors of chemistry department are Dr. Ragini Gupta, Dr. Jyoti Joshi, Dr. Abbas Raja, Dr. Barun Jana, Dr. Biman Bandhpadhyay, Dr. Manviri Rani","the faculty of chemistry department includes Dr. Ragini Gupta, Dr. Jyoti Joshi, Dr. Abbas Raja, Dr. Barun Jana, Dr. Biman Bandhpadhyay, Dr. Manviri Rani "],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_physics",
+            "patterns": ["who is hod of department of physics","who is hod of physics department","what is the name of head of department of physics","tell me the name of the head of department of physics","who is head of department of physics"],
+            "responses":["Dr. S. R. Nelamarri is head of department of physics","The head of department of physics is Dr. S. R. Nelamarri"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_physics",
+            "patterns": ["tell me the names of professors of physics department","who are professors of the physics department","give me the list of physics department professors","give me the list of professors of  department of physics","what are the names of the professors of department of physics ","what is the faculty in physics department","give me the list of faculty of physics department."],
+            "responses": ["The professors of physics department are Dr. S. R. Nelamarri,  Dr. Kanupriya Sachdeva, Dr. Akhilesh Nautiyal, Dr. Anees Ahmed, Dr. Anirban Dutta, Dr. Kavita Lalwani","the faculty of physics department includes Dr. S. R. Nelamarri,  Dr. Kanupriya Sachdeva, Dr. Akhilesh Nautiyal, Dr. Anees Ahmed, Dr. Anirban Dutta, Dr. Kavita Lalwani"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_mathematics",
+            "patterns": ["who is hod of department of mathematics","who is hod of mathematics department","what is the name of head of department of mathematics","tell me the name of the head of department of mathematics","who is head of department of mathematics"],
+            "responses":["Dr. B. L. Swami is head of department of mathematics","The head of department of mathematics is Dr. B. L. Swami"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_mathematics",
+            "patterns": ["tell me the names of professors of mathematics department","who are professors of the mathematics department","give me the list of mathematics department professors","give me the list of professors of  department of mathematics","what are the names of the professors of department of mathematics ","what is the faculty in mathematics department","give me the list of faculty of mathematics department."],
+            "responses": ["The professors of mathematics department are Dr. B. L. Swami, Dr. Ramesh Soni, Dr. Santosh Chaudhary, Dr. Vatsala Mathur ","the faculty of mathematics department includes Dr. B. L. Swami, Dr. Ramesh Soni, Dr. Santosh Chaudhary, Dr. Vatsala Mathur"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_humanities",
+            "patterns": ["who is hod of department of humanities and social sciences","who is hod of humanities department","what is the name of head of department of humanities and social sciences","tell me the name of the head of department of humanities and social sciences","who is head of department of humanities"],
+            "responses":["Prof. Manju Singh is head of department of humanities and social sciences","The head of department of humanities and social sciences is Prof. Manju Singh"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_humanities",
+            "patterns": ["tell me the names of professors of humanities department","who are professors of the humanities and social science  department","give me the list of humanities department professors","give me the list of professors of  department of humanities and social sciences","what are the names of the professors of department of humanities and social sciences ","what is the faculty in humanities  department","give me the list of faculty of humanities and social sciences department."],
+            "responses": ["The professors of humanities and social sciences department are Prof. Manju Singh, Prof. Nupur Tandon, Dr. Vibhuti Singh Shekhawat, Dr. Dipti Sharma , Ms Nanny Tripathi , Dr. Preeti Bhatt","the faculty of humanities and social sciences department includes Prof. Manju Singh, Prof. Nupur Tandon, Dr. Vibhuti Singh Shekhawat, Dr. Dipti Sharma , Ms Nanny Tripathi , Dr. Preeti Bhatt "],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_management",
+            "patterns": ["who is hod of department of management studies","who is hod of management studies department","what is the name of head of department of management studies","tell me the name of the head of department of management studies","who is head of department of management studies"],
+            "responses":["Dr. Satish Kumar is head of department of management studies","The head of department of management studies is Dr. Satish Kumar"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_management",
+            "patterns": ["tell me the names of professors of management studies department","who are professors of the management studies department","give me the list of management studies department professors","give me the list of professors of  department of management studies","what are the names of the professors of department of management studies ","what is the faculty in management studies  department","give me the list of faculty of management studies department."],
+            "responses": ["The professors of management studies department are Dr. Satish Kumar, Prof. A. P. S. Rathore, Dr.Rakesh Jain, Dr. G. S. Dangayach, Dr. Murari Lal Mittal","the faculty of management studies department includes Dr. Satish Kumar, Prof. A. P. S. Rathore, Dr.Rakesh Jain, Dr. G. S. Dangayach, Dr. Murari Lal Mittal"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "HOD_NCDMM",
+            "patterns": ["who is hod of department of  national center for Disaster mitigation and management","who is hod of disaster management department","what is the name of head of department of disaster mitigation and management","tell me the name of the head of department of disaster management","who is head of department of disaster mitigation and management"],
+            "responses":["Dr. S. D. Bharti is head of center for disaster mitigation and management","The head of national center for disaster mitigation and management is Dr. S. D. Bharti"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "prof_NCDMM",
+            "patterns": ["tell me the names of professors of national center for disaster mitigation and management","who are professors of the disaster management","give me the list of disaster mitigation and management professors","give me the list of professors of disaster mitigation and management center","what are the names of the professors of national center for disaster mitigation and management ","what is the faculty in disaster mitigation and management","give me the list of faculty of disaster mitigation and management."],
+            "responses": ["The professors of national center for disaster mitigation and management are  Dr. S. D. Bharti, Prof. M. K. Shrimali, Dr. Dinesh Kumar, Dr. Emmanuel Pilli, Dr. Satish Kumar","the faculty of national center for disaster mitigation and management includes Dr. S. D. Bharti, Prof. M. K. Shrimali, Dr. Dinesh Kumar, Dr. Emmanuel Pilli, Dr. Satish Kumar"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Alumnis",
+            "patterns": ["tell me the names of some of the MNIT Alumnis","who are some notable mnit alumnis","alumnis of mnit","who are important mnit alumnis","who are famous alumnis of mnit","who are the famous alumnis of the college","tell me about some of the famous alumnis of the college","give me the names of alumnis from MNIT"],
+            "responses": ["The notable alumnis of MNIT are Thomas Abraham, president of GOPIO,Amit Ranjan, co-founder and COO of Slideshare,Gazal Dhaliwal, bollywood lyrics writer and transgender rights activist,Shivangi, Indian Navy First Woman Pilot"],
+            "context_set": ""
+        },      
+
+
+        {
+            "tag": "ranking",
+            "patterns": ["tell me the rank of mnit","tell me about the rank of mnit in india","what is mnit ranking","where does mnit stand among other colleges in india","what is rank of mnit in india","what is rank of mnit","what is the position of MNIT in india"],
+            "responses": ["As Per N I R F 2019 rank of MNIT Jaipur is 53 in India.","MNIT stands at fifty third place as per N I R F ranking 2019."],
+            "context_set": ""
+        },
+
+        {   "tag": "admission",
+            "patterns": [" How can one take admission in Undergraduate Programmes (B.Tech, B.Arch) at MNIT Jaipur?", "give me the information about admission in MNIT?", "give me the information about admissions in MNIT?","tell me about the admissions in MNIT","tell me about the admission procedure in mnit","how to take admission in mnit","what is eligibility criteria for admission in MNIT","what is the condition for admission in MNIT"],
+            "responses": ["One needs to take the JEE (Main) exam and either secure at least 75% marks (65% for SC/ST/PwD) in Class XII or be within the category-wise top 20 percentile in his/her respective Class XII board examination.Admissions are done on the basis of rank in JEE (Main) through JoSAA Counselling and CSAB Special Round."],
+            "context_set": ""
+        },
+
+        {   "tag": "energy_dept_vision",
+            "patterns": ["what is the vision of department of center of energy and environment? ","what is the vision of center of energy and environment","tell me about the vision of center for energy and environment"],
+            "responses": ["the vision of center for energy and environment is To foster renewable energy technologies through pedagogical tools, research and human resource development at various levels, and disseminate the information for sustainable development."],
+            "context_set": ""
+        },
+
+        {   "tag": "energy_dept_mission",
+            "patterns": ["what is the mission of department of center of energy and environment? ","what is the mission of center of energy and environment","tell me about the mission of center for enregy and environment"],
+            "responses": ["The main mission of center of energy and environment is To enable sustainable and cost-efficient innovations and develop interactive facilities pertaining to the multi-disciplinary areas of renewable energy and environment.","the mission of center for energy and environment is to promote education and awareness related to energy and environment by becoming a nodal centre for north-western India."],
+            "context_set": ""
+        },
+
+        {   "tag": "energy_dept_objectives",
+            "patterns": ["what is the objective of department of center of energy and environment? ","what is the objective of center of energy and environment","tell me about the objective of center for enregy and environment"],
+            "responses": ["The main objective of center of energy and environment is To provide skilled personnel with integrated learning of sustainable development, energy conservation, design, modelling and performance analysis to academia and industry in the area of energy and environment.","the core objective of center of energy and environment is to provide an academic ambience that allows to develop good scientific and technical skills in students to enable them to provide sustainable and cost-efficient innovative solutions to society."],
+            "context_set": ""
+        },
+
+        {   "tag": "energy_dept_outcomes",
+            "patterns": ["what are the program outcomes of department of center of energy and environment? ","what is the program outcome of center of energy and environment","tell me about the program outcome of center for enregy and environment"],
+            "responses": ["A student who has met the objectives of the course will possess An ability to demonstrate a degree of mastery over renewable energy and allied systems, at a level higher than the requirements in the appropriate Bachelor's program ","a student who has met the objectives of the course will possess An ability to improve renewable energy systems, and assess their impact on overall sustainable development "],
+            "context_set": ""
+        },
+
+        {
+            "tag": "facilities_CEE",
+            "patterns": ["what are research facilities available in center of energy and environment","what are facilities available at in center of energy and environment","tell me about the facilities available at center of energy and environment"],
+            "responses": ["The research facilities available at center of energy and environment are Psychrometric Test Chamber, Radiant Cooling and Chilled Water Thermal Storage Facilities, Renewable energy laboratory etc","Psychrometric Test Chamber, Radiant Cooling and Chilled Water Thermal Storage Facilities,renewable energy laboratory are some of the facilities available at center of energy and environment"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "placement_CEE",
+            "patterns": ["which companies come for placement of students  in center of energy and environment","what companies come for placement in center of energy and environment","tell me about placements at center of energy and environment"],
+            "responses": ["students of center of energy and environment are placed in companies like GRIHA council, EESL, Lloyds register, Amplus solar, Oorja Energy etc","The companies that come for center of energy and environment are GRIHA council , Lloyds Register, jones lang laSalle, Rays Power infra etc."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "contact_HOD_archi",
+            "patterns": ["what is the phone number of H O D of architecture and planning","what is the phone number of head of department of architecture and planning","tell me the phone number of head of department of architecture and planning","what is the contact number of head of department of architecture and planning","tell me the contact details of head of department of architecture and planning"],
+            "responses": ["The phone number of Head of department of architecture and planning is 0141 2591164","The contact number of head of department of architecture and planning is 0141-2591164"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_archi",
+            "patterns": ["what is the e-mail address of H O D of architecture and planning","what is the e-mail address of head of department of architecture and planning","tell me the e-mail address of head of department of architecture and planning","what is the e-mail  of head of department of architecture and planning","tell me the e-mail address of head of department of architecture and planning"],
+            "responses": ["The e-mail address of Head of department of architecture and planning is mvarshney.arch@mnit.ac.in","The e-mail address of H O D of architecture and planning is mvarshney.arch@mnit.ac.in"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "contact_HOD_CEE",
+            "patterns": ["what is the phone number of H O D of center for energy and environment","what is the phone number of coordinator of center for energy and environment","tell me the phone number of head of department of center for energy and environment","what is the contact number of head of department of center for energy and environment","tell me the contact details of head of department of center for energy and environment"],
+            "responses": ["The phone number of Head of department of center for energy and environment is 0141-2713296","The contact number of head of department of center for energy and environment is 0141-2713296"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_CEE",
+            "patterns": ["what is the e-mail address of H O D of center of energy and environment","what is the e-mail address of head of department of Centre for energy and environment","tell me the e-mail address of head of department of center for energy and environment","what is the e-mail of coordinator of center for energy and environment","tell me the e-mail address of head of department of center for energy and environment"],
+            "responses": ["The e-mail address of coordinator of center for energy and environmental is head.cee@mnit.ac.in","The e-mail address of H O D of architecture and planning is head.cee@mnit.ac.in"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "contact_HOD_chemical",
+            "patterns": ["what is the phone number of H O D of chemical engineering department","what is the phone number of head of department of chemical engineering","tell me the phone number of head of department of chemical engineering","what is the contact number of head of department of architecture and planning","tell me the contact details of head of department of chemical engineering"],
+            "responses": ["The phone number of Head of department of chemical engineering is 0141 2299711","The contact number of head of department of chemical engineering is 0141-2299711"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_chemical",
+            "patterns": ["what is the e-mail address of H O D of chemical engineering","what is the e-mail address of head of department of chemical engineering","tell me the e-mail address of head of department of chemical engineering","what is the e-mail  of head of department of chemical engineering","tell me the e-mail address of head of department of chemical engineering"],
+            "responses": ["The e-mail address of Head of department of chemical engineering is hod.chem@mnit.ac.in","The e-mail address of H O D of chemical engineering is hod.chem@mnit.ac.in"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "contact_HOD_chemistry",
+            "patterns": ["what is the phone number of H O D chemistry department","what is the phone number of head of department of chemistry","tell me the phone number of head of department of chemistry","what is the contact number of head of department of chemistry","tell me the contact details of head of department of chemistry"],
+            "responses": ["The phone number of Head of department of chemistry is 0141 2713252","The contact number of head of department of chemistry is 0141-271352"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_chemistry",
+            "patterns": ["what is the e-mail address of H O D of chemistry","what is the e-mail address of head of department of chemistry","tell me the e-mail address of head of department of chemistry","what is the e-mail  of head of department of chemistry","tell me the e-mail address of head of department of chemistry"],
+            "responses": ["The e-mail address of Head of department of chemistry is hod.chy@mnit.ac.in","The e-mail address of H O D of chemistry department is hod.chy@mnit.ac.in"],
+            "context_set": ""
+        }, 
+
+         {
+            "tag": "contact_HOD_civil",
+            "patterns": ["what is the phone number of H O D of civil engineering department","what is the phone number of head of department of civil engineering","tell me the phone number of head of department of civil engineering","what is the contact number of head of department of civil engineering","tell me the contact details of head of department of civil engineering"],
+            "responses": ["The phone number of Head of department of civil engineering is 0141 2713412","The contact number of head of department of civil engineering is 0141-2713412"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_civil",
+            "patterns": ["what is the e-mail address of H O D of civil engineering","what is the e-mail address of head of department of civil engineering","tell me the e-mail address of head of department of civil engineering","what is the e-mail  of head of department of civil engineering","tell me the e-mail address of head of department of civil engineering"],
+            "responses": ["The e-mail address of Head of department of civil engineering is hod.ce@mnit.ac.in","The e-mail address of H O D of civil engineering is hod.ce@mnit.ac.in"],
+            "context_set": ""
+        },
+
+         {
+            "tag": "contact_HOD_CSE",
+            "patterns": ["what is the phone number of H O D of computer science and engineering department","how do i contact head of department of Computer science and engineering","how do i contact HOD of CS","what is the phone number of head of department of computer science and engineering","tell me the phone number of head of department of computer science and engineering","what is the contact number of head of department of computer science and engineering","tell me the contact details of head of department of computer science and engineering"],
+            "responses": ["The phone number of Head of department of computer science and engineering is 0141 2529154","The contact number of head of department of computer science and engineering is 0141-2713340"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_CSE",
+            "patterns": ["what is the e-mail address of H O D of computer science and engineering","what is the e-mail address of head of department of computer science and engineering","tell me the e-mail address of head of department of computer science and engineering","what is the e-mail  of head of department of computer science and engineering","tell me the e-mail address of head of department of computer science engineering","what is the e-mail address of head of department of C S department"],
+            "responses": ["The e-mail address of Head of department of computer science and engineering is hod.cse@mnit.ac.in","The e-mail address of H O D of computer science and engineering is hod.cse@mnit.ac.in"],
+            "context_set": ""
+        },
+
+         {
+            "tag": "contact_HOD_electrical",
+            "patterns": ["what is the phone number of H O D of electrical engineering department","what is the phone number of head of department of electrical engineering","tell me the phone number of head of department of electrical engineering","what is the contact number of head of department of electrical engineering","tell me the contact details of head of department of electrical engineering"],
+            "responses": ["The phone number of Head of department of electrical engineering is 0141 2713372","The contact number of head of department of electrical engineering is 0141-2713372"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_electrical",
+            "patterns": ["what is the e-mail address of H O D of electrical engineering","what is the e-mail address of head of department of electrical engineering","tell me the e-mail address of head of department of electrical engineering","what is the e-mail  of head of department of electrical engineering","tell me the e-mail address of head of department of electrical engineering"],
+            "responses": ["The e-mail address of Head of department of electrical engineering is hod.ee@mnit.ac.in","The e-mail address of H O D of electrical engineering is hod.ee@mnit.ac.in"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "contact_HOD_electronics",
+            "patterns": ["what is the phone number of H O D of electronics and communication engineering department","what is the phone number of head of department of electronics and communication engineering","tell me the phone number of head of department of electronics and communication engineering","what is the contact number of head of department of electronics and communication engineering","tell me the contact details of head of department of electronics and communication engineering"],
+            "responses": ["The phone number of Head of department of electronics and communication engineering is 0141 2713334","The contact number of head of department of electronics and communication engineering is 0141-2713334"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_electronics",
+            "patterns": ["what is the e-mail address of H O D of electronics and communication engineering","what is the e-mail address of head of department of electronics and communication engineering","tell me the e-mail address of head of department of electronics and communication engineering","what is the e-mail  of head of department of electronics and communication engineering","tell me the e-mail address of head of department of electronics and communication engineering"],
+            "responses": ["The e-mail address of Head of department of electronics and communication engineering is hod.ece@mnit.ac.in","The e-mail address of H O D of electronics and communication engineering is hod.ece@mnit.ac.in"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "contact_HOD_humanities",
+            "patterns": ["what is the phone number of H O D of humanities and social science department","what is the phone number of head of department of  humanities and social science","tell me the phone number of head of department of humanities and social science","what is the contact number of head of department of humanities and social science","tell me the contact details of head of department of humanities and social science"],
+            "responses": ["The phone number of Head of department of electrical engineering is 0141 2713372","The contact number of head of department of electrical engineering is 0141-2713"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "contact_HOD_management",
+            "patterns": ["what is the phone number of H O D of management studies","what is the phone number of head of department of management studies","tell me the phone number of head of department of management studies","what is the contact number of head of department of management studies","tell me the contact details of head of department of management studies"],
+            "responses": ["The phone number of Head of department of management studies is 0141 2713474","The contact number of head of department of management studies is 0141-2713474"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_management",
+            "patterns": ["what is the e-mail address of H O D of management studies","what is the e-mail address of head of department of management studies","tell me the e-mail address of head of department of management studies","what is the e-mail  of head of department of management studies","tell me the e-mail address of head of department of management studies"],
+            "responses": ["The e-mail address of Head of department of management studies is hod.dms@mnit.ac.in","The e-mail address of H O D of management studies is hod.dms@mnit.ac.in"],
+            "context_set": ""
+        }, 
+
+        {
+            "tag": "contact_HOD_mathematics",
+            "patterns": ["what is the phone number of H O D mathematics department","what is the phone number of head of department of mathematics","tell me the phone number of head of department of mathematics","what is the contact number of head of department of mathematics","tell me the contact details of head of department of mathematics"],
+            "responses": ["The phone number of Head of department of mathematics is 0141 2713277 ","The contact number of head of department of mathematics is 0141-2713277"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_mathematics",
+            "patterns": ["what is the e-mail address of H O D of mathematics","what is the e-mail address of head of department of mathematics","tell me the e-mail address of head of department of mathematics","what is the e-mail  of head of department of mathematics","tell me the e-mail address of head of department of mathematics"],
+            "responses": ["The e-mail address of Head of department of mathematics is hod.maths@mnit.ac.in","The e-mail address of H O D of mathematics department is hod.maths@mnit.ac.in"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "contact_HOD_mechanical",
+            "patterns": ["what is the phone number of H O D of mechanical engineering department","what is the phone number of head of department of mechanical engineering","tell me the phone number of head of department of mechanical engineering","what is the contact number of head of department of mechanical engineering","tell me the contact details of head of department of mechanical engineering"],
+            "responses": ["The phone number of Head of department of mechanical engineering is 0141 2713330","The contact number of head of department of mechanical engineering is 0141-2713330"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_mechanical",
+            "patterns": ["what is the e-mail address of H O D of mechanical engineering","what is the e-mail address of head of department of mechanical engineering","tell me the e-mail address of head of department of mechanical engineering","what is the e-mail  of head of department of mechanical engineering","tell me the e-mail address of head of department of mechanical engineering"],
+            "responses": ["The e-mail address of Head of department of mechanical engineering is hod.mech@mnit.ac.in","The e-mail address of H O D of mechanical engineering is hod.mech@mnit.ac.in"],
+            "context_set": ""
+        },
+
+         {
+            "tag": "contact_HOD_meta",
+            "patterns": ["what is the phone number of H O D of metallurgical and materials engineering department","what is the phone number of head of department of metallurgical and materials engineering","tell me the phone number of head of department of metallurgical and materials engineering","what is the contact number of head of department of metallurgical and materials engineering","tell me the contact details of head of department of metallurgical and materials engineering"],
+            "responses": ["The phone number of Head of department of metallurgical and materials engineering is 0141 2713242","The contact number of head of department of metallurgical and materials  engineering is 0141-2713242"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_meta",
+            "patterns": ["what is the e-mail address of H O D of metallurgical and materials engineering","what is the e-mail address of head of department of metallurgical and materials engineering","tell me the e-mail address of head of department of metallurgical and materials engineering","what is the e-mail  of head of department of metallurgical and materials engineering","tell me the e-mail address of head of department of metallurgical and materials engineering"],
+            "responses": ["The e-mail address of Head of department of metallurgical and materials engineering is hod.meta@mnit.ac.in","The e-mail address of H O D of metallurgical and materials engineering is hod.meta@mnit.ac.in"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "contact_HOD_physics",
+            "patterns": ["what is the phone number of H O D physics department","what is the phone number of head of department of physics","tell me the phone number of head of department of physics","what is the contact number of head of department of physics","tell me the contact details of head of department of physics"],
+            "responses": ["The phone number of Head of department of physics is 0141 2713433","The contact number of head of department of physics is 0141-2713433"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_physics",
+            "patterns": ["what is the e-mail address of H O D of physics","what is the e-mail address of head of department of physics","tell me the e-mail address of head of department of physics","what is the e-mail  of head of department of physics","tell me the e-mail address of head of department of physics"],
+            "responses": ["The e-mail address of Head of department of physics is hod.phy@mnit.ac.in","The e-mail address of H O D of physics department is hod.phy@mnit.ac.in"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "contact_HOD_NCDMM",
+            "patterns": ["what is the phone number of H O D of disaster mitigation and management center","what is the phone number of head of department of center for disaster mitigation and management","tell me the phone number of head of department of disaster mitigation and management","what is the contact number of head of department of center for disaster mitigation and management","tell me the contact details of head of department of center for disaster mitigation and management"],
+            "responses": ["The phone number of Head of department of center for disaster mitigation and management is 0141 2713551","The contact number of head of department of center for disaster mitigation and management is 0141-2713551"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "email_HOD_NCDMM",
+            "patterns": ["what is the e-mail address of H O D of center for disaster mitigation and management","what is the e-mail address of head of department of center for disaster mitigation and  management","tell me the e-mail address of head of department of disaster mitigation and management","what is the e-mail  of head of department of center for disaster mitigation and management","tell me the e-mail address of head of department of center for disaster mitigation and management"],
+            "responses": ["The e-mail address of Head of department of center for disaster mitigation and management is sdbharti@mnit.ac.in","The e-mail address of H O D of center for disaster mitigation and management is sdbharti@mnit.ac.in"],
+            "context_set": ""
+        }
+    ]
+}

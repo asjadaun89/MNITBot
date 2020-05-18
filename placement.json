@@ -1,0 +1,61 @@
+{"intents":
+    [
+
+        {
+            "tag": "overall_UG",
+            "patterns": ["what is the placement scenario for B. tech.in mnit","tell me about placements in mnit","how is the placement record of under graduate in MNIT","what is the situation of placements of under graduate in MNIT","what is the average placement of under graduate in MNIT","what is the average placement of B.tech in MNIT","what is the average pay package  of B.Tech in MNIT in placement","how are placements in MNIT","what are placement opportunities in  MNIT","hwo is the placement scenario of the college","what are the latest placement statistics of B.tech in MNIT","what is current placement scenario of the college", "hwo is the placement of final year students in MNIT", "what is placement ratio in MNIT","what is the percentage of placement of B.tech in mnit"],
+            "responses": ["For B.tech, the percentage of placed students on campus is around 50% and the average pay package is 9.40 LPA.","For UG ,the placement percentage for on campus placement is 50% with an average pay package of 9.40 LPA."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Overall_PG",
+            "patterns": ["what is the placement scenario of M.tech. in mnit","how is the placement record of M.tech in  MNIT","what is the situation of placements for M. Tech. in MNIT","what is the average placement for M.tech in MNIT","what is the average pay packagefor M. tech students of MNIT in placement","how are placements for post graduate in MNIT","what are placement opportunities for post graduates in  MNIT","how is the placement scenario of the M. Tech in the college","what are the latest placement statistics  of M. tech in MNIT","what is current placement scenario of post graduates in the college", "hwo is the placement of M. tech students in MNIT","what is the percentage of placement of M. tech in mnit"],
+            "responses": ["According to placement cell, 62 Masters studnets have been placed and the average pay package is 6.97 LPA.","The number of studnets placed in PG is 62 with an average pay package of 6.97 LPA."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "no_of_companies",
+            "patterns": ["how many companies visit MNIT campus for placement","what is the number of companies that visit MNIT for placement","tell me the number of companies visit MNIT for placement","how many companies come for placements in MNIT","how many companies come for placing studnets in MNIT"],
+            "responses": ["160 plus companies visit MNIT campus as per the placement cell MNIT","The number of companies coming for on campus placement in MNIT are over 160 as per placement cell."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "companies",
+            "patterns": ["which companies visit MNIT campus for placement","list the name of  companies that visit MNIT for placement","tell me the name of ompanies visit MNIT for placement","which companies come for placements in MNIT","give me the name of the companies that come for placing studnets in MNIT"],
+            "responses": ["Amazon,Adobe,DE Shaw, oracle ,JP Morgan, Bajaj, Hero, Suzuki,Reliance , Tata steel and many more companies visit MNIT campus each year for placements"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "start_placement",
+            "patterns": ["when does placement session begin in MNIT","when does placement start in MNIT","at what time does placement begin in MNIT","when do companies start coming for placements in mnit","when do all companies visit MNIT for placements "],
+            "responses": ["Placement session begins from last week of July.","companies start visiting mnit campus from last week of july for the placements "],
+            "context_set": ""
+        },
+
+        {
+            "tag": "placement_CS",
+            "patterns": ["what is the placement scenario of CS branch in mnit","what is the placement scenario of computer science and engineering branch in MNIT","tell me about placements ib Computer science branch in MNIT","how is the placement record of computer science in MNIT","what is the situation of placements in computer science in MNIT","what is the average placement of computer science in MNIT","what is the average placement of CS in MNIT","what is the average pay package computer science in MNIT in placement","how are placements of computer science branch","what are placement opportunities in computer science","what are the latest placement statistics of computer science branch in MNIT","what is placement ratio in computer science branch in MNIT","what is the percentage of placement of computer science branch in mnit"],
+            "responses": ["the percentage of students placement in Computer science is 90% with an average pay package of 14.59 LPA","88 out of 97 students are placed in computer science branch with an average pay package of 14.59 LPA."],
+            "context_set": "" 
+        },
+
+        {
+            "tag": "companies_CS",
+            "patterns": ["which companies visit MNIT campus for computer science and engineering branch","list the name of  companies that visit for computer science and engineering","which IT companies come for placements in MNIT","tell me the name of ompanies visit MNIT for CS branch","which companies come for placements in Computer science and engineering branch","give me the name of the companies that come for computer science and engineering in MNIT"],
+            "responses": ["Amazon,Adobe,DE Shaw, oracle, JP Morgan, Walmart, Flipkart, Salesforce, Goldman Sachs, Fidelity,Samsung and many more companies come for computer science and engineering students."],
+            "context_set": ""
+        },
+
+        {
+            "tag": "highest_CS",
+            "patterns": ["which company gives highest pay pakage in computer science branch","which company gives highest offer in computer science and engineering branch in MNIT","what is the highest package offered in CS branch","what is the highest package offered in computer science and engineering branch","what is the biggest package offered in CS branch","what is the biggest package offered in computer science and engineering branch","what is the largest package offered in CS branch","what is the largest package offered in computer science and engineering branch"],
+            "responses": ["The highest pay package offered in computer science branch is 30.82 LPA which is being offered by Salesforce.","Salesforce offeres the highest pay package of 30.82 LPA"],
+            "context_set": ""
+        }
+
+    ]
+}
