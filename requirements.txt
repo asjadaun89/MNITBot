@@ -27,7 +27,6 @@ itsdangerous==1.1.0
 Jinja2==2.11.2
 Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
-kiwisolver==1.2.0
 log-symbols==0.0.14
 Markdown==3.1.1
 MarkupSafe==1.1.1
